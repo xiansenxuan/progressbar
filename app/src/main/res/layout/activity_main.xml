@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.xuan.progressbar.CustomProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:borderWidth="5dp"
+        app:fontSize="20sp"
+        app:fontColor="@color/colorAccent"
+        app:innerBgColor="@color/red"
+        app:outerBgColor="@color/green"
+        app:progressMiddleText="80"
+        />
+
+</android.support.constraint.ConstraintLayout>

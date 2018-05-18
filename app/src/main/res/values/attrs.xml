@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <declare-styleable name="CustomProgressBar">
+        <attr name="innerBgColor" format="color|reference"/>
+        <attr name="outerBgColor" format="color|reference"/>
+        <attr name="borderWidth" format="dimension"/>
+
+        <attr name="fontSize" format="dimension"/>
+        <attr name="fontColor" format="color|reference"/>
+
+        <attr name="progressMiddleText" format="string"/>
+
+        <attr name="progressValue" format="float"/>
+        <attr name="progressValueMax" format="float"/>
+    </declare-styleable>
+</resources>
